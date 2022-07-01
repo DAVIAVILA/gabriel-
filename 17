@@ -1,0 +1,21 @@
+int main()
+{
+
+    float n1,n2,media,dia;
+
+    printf("informe a primeira nota: ");
+    scanf("%f",&n1);
+
+    printf("informe a segunda nota: ");
+    scanf("%f",&n2);
+
+    dia =(n1+n2)/2;
+
+    if(media >= 6){
+        printf("o aluno foi aprovado e sua media final foi de %.2f",media);
+    } else {
+        printf("o aluno foi reprovadoe sua media infelizmente foi de %.2f",media);
+    }
+
+    return 0;
+}
