@@ -1,0 +1,20 @@
+int main()
+{
+    int ano, idade;
+
+    printf("Informe o ano de nascimento:");
+    scanf("%d",&ano);
+
+    idade = 2022 - ano;
+
+    if(idade >= 16){
+        printf("O cidadão pode voatar:");
+    } else {
+        printf("O cidadão não possui idade legal para votar:");
+    }
+
+
+
+
+    return 0;
+}
