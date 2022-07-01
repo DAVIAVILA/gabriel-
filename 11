@@ -1,0 +1,17 @@
+int main()
+{
+    printf("Informe o numero de carrros vendidos:");
+    scanf("%f",&carros);
+
+    printf("\nInforme o valor total de duas vendas:");
+    scanf("%f",&vendas totais);
+
+    printf("\nInforme o salario fixo:");
+    scanf("%f",&salario);
+
+    printf("\nInforme o valor recebido por carro vendido:");
+    scanf("%f",&valorCarro);
+
+
+    return 0;
+}
